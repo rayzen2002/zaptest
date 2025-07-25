@@ -2,7 +2,7 @@
   "name": "zaptest",
   "version": "1.0.0",
   "main": "api.js",
-  "type": "module",
+  "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,7 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "express": "^5.1.0",
     "fastify": "^5.4.0"
   }
 }
