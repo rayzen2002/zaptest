@@ -11,6 +11,8 @@ app.use(express.json());
 // Set port and verify_token
 const port = process.env.PORT || 3000;
 const verifyToken = process.env.VERIFY_TOKEN;
+const accessToken = process.env.WHATSAPP_TOKEN; // token do WhatsApp
+const phoneNumberId = process.env.PHONE_NUMBER_ID;
 
 // Route for GET requests
 app.get('/', (req, res) => {
